@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{144670CB-6396-488C-A76D-2E03A3B69E78}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Scaffolding.CustomFilter</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\DevExpress.Data.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.1.Core">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\DevExpress.Printing.v14.1.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\DevExpress.Mvvm.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\DevExpress.Xpf.Core.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\Devexpress.xpf.navbar.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\Devexpress.xpf.ribbon.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1.Core">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\DevExpress.Xpf.Grid.v14.1.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\Devexpress.xpf.grid.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v14.1.Core">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\DevExpress.Xpf.Layout.v14.1.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\Devexpress.xpf.docking.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v14.1">
+      <HintPath>c:\projects\14.1\Test_WPF_2\Temp\Wpf.v14.1.2005\BuildsStudio\..\..\..\Devexpress.xpf.layoutcontrol.v14.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Common\CommonResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ViewModel\LookUpCollectionViewModel.vb" />
+    <Compile Include="Common\ViewModel\ReadOnlyLookUpCollectionViewModel.vb" />
+    <Compile Include="Data\IssueContextInitializer.vb" />
+    <Compile Include="IssueContextView.xaml.vb">
+      <DependentUpon>IssueContextView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IssueContextViewModel.vb" />
+    <Compile Include="ViewModels\IssueCollectionViewModel.vb" />
+    <Compile Include="ViewModels\IssueCollectionViewModel.Extensions.vb" />
+    <Compile Include="ViewModels\IssueViewModel.vb" />
+    <Compile Include="Views\IssueCollectionView.xaml.vb">
+      <DependentUpon>IssueCollectionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IssueView.xaml.vb">
+      <DependentUpon>IssueView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="IssueContextView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\DataModel\DbExceptions.vb" />
+    <Compile Include="Common\DataModel\DesignTimeReadOnlyRepository.vb" />
+    <Compile Include="Common\DataModel\DesignTimeRepository.vb" />
+    <Compile Include="Common\DataModel\DesignTimeUnitOfWork.vb" />
+    <Compile Include="Common\DataModel\EntityFramework\DbExceptionsConverter.vb" />
+    <Compile Include="Common\DataModel\EntityFramework\DbReadOnlyRepository.vb" />
+    <Compile Include="Common\DataModel\EntityFramework\DbRepository.vb" />
+    <Compile Include="Common\DataModel\EntityFramework\DbUnitOfWork.vb" />
+    <Compile Include="Common\DataModel\EntityMessage.vb" />
+    <Compile Include="Common\DataModel\IReadOnlyRepository.vb" />
+    <Compile Include="Common\DataModel\IRepository.vb" />
+    <Compile Include="Common\DataModel\IUnitOfWork.vb" />
+    <Compile Include="Common\Utils\DbExtensions.vb" />
+    <Compile Include="Common\Utils\ExpressionHelper.vb" />
+    <Compile Include="Common\ViewModel\CollectionViewModel.vb" />
+    <Compile Include="Common\ViewModel\ISingleObjectViewModel.vb" />
+    <Compile Include="Common\ViewModel\ReadOnlyCollectionViewModel.vb" />
+    <Compile Include="Common\ViewModel\SingleObjectViewModel.vb" />
+    <Compile Include="Data\Issue.vb" />
+    <Compile Include="Data\IssueContext.vb" />
+    <Compile Include="Data\IssueType.vb" />
+    <Compile Include="IssueContextDataModel\DesignTime\DesignTimeIssueContextUnitOfWork.vb" />
+    <Compile Include="IssueContextDataModel\DesignTime\DesignTimeIssueRepository.vb" />
+    <Compile Include="IssueContextDataModel\Model\IIssueContextUnitOfWork.vb" />
+    <Compile Include="IssueContextDataModel\Model\IIssueRepository.vb" />
+    <Compile Include="IssueContextDataModel\Runtime\IssueContextUnitOfWork.vb" />
+    <Compile Include="IssueContextDataModel\Runtime\IssueRepository.vb" />
+    <Compile Include="IssueContextDataModel\UnitOfWorkSource.vb" />
+    <Compile Include="MainWindow.xaml.vb">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\IssueCollectionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\IssueView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Common\CommonResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>Scaffolding.CustomFilter.Common</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

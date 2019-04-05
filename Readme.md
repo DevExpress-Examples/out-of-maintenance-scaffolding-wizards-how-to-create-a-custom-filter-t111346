@@ -12,18 +12,18 @@
 * [IssueContextUnitOfWork.cs](./CS/Scaffolding.CustomFilter/IssueContextDataModel/Runtime/IssueContextUnitOfWork.cs) (VB: [IssueContextUnitOfWork.vb](./VB/Scaffolding.CustomFilter/IssueContextDataModel/Runtime/IssueContextUnitOfWork.vb))
 * [IssueRepository.cs](./CS/Scaffolding.CustomFilter/IssueContextDataModel/Runtime/IssueRepository.cs) (VB: [IssueRepository.vb](./VB/Scaffolding.CustomFilter/IssueContextDataModel/Runtime/IssueRepository.vb))
 * [UnitOfWorkSource.cs](./CS/Scaffolding.CustomFilter/IssueContextDataModel/UnitOfWorkSource.cs) (VB: [UnitOfWorkSource.vb](./VB/Scaffolding.CustomFilter/IssueContextDataModel/UnitOfWorkSource.vb))
-* [IssueContextView.xaml](./CS/Scaffolding.CustomFilter/IssueContextView.xaml) (VB: [IssueContextView.xaml.vb](./VB/Scaffolding.CustomFilter/IssueContextView.xaml.vb))
+* [IssueContextView.xaml](./CS/Scaffolding.CustomFilter/IssueContextView.xaml) (VB: [IssueContextView.xaml](./VB/Scaffolding.CustomFilter/IssueContextView.xaml))
 * [IssueContextView.xaml.cs](./CS/Scaffolding.CustomFilter/IssueContextView.xaml.cs) (VB: [IssueContextView.xaml.vb](./VB/Scaffolding.CustomFilter/IssueContextView.xaml.vb))
 * [IssueContextViewModel.cs](./CS/Scaffolding.CustomFilter/IssueContextViewModel.cs) (VB: [IssueContextViewModel.vb](./VB/Scaffolding.CustomFilter/IssueContextViewModel.vb))
-* [MainWindow.xaml](./CS/Scaffolding.CustomFilter/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/Scaffolding.CustomFilter/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/Scaffolding.CustomFilter/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Scaffolding.CustomFilter/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/Scaffolding.CustomFilter/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/Scaffolding.CustomFilter/MainWindow.xaml.vb))
 * [IssueCollectionViewModel.cs](./CS/Scaffolding.CustomFilter/ViewModels/IssueCollectionViewModel.cs) (VB: [IssueCollectionViewModel.vb](./VB/Scaffolding.CustomFilter/ViewModels/IssueCollectionViewModel.vb))
 * [IssueCollectionViewModel.Extensions.cs](./CS/Scaffolding.CustomFilter/ViewModels/IssueCollectionViewModel.Extensions.cs) (VB: [IssueCollectionViewModel.Extensions.vb](./VB/Scaffolding.CustomFilter/ViewModels/IssueCollectionViewModel.Extensions.vb))
 * [IssueViewModel.cs](./CS/Scaffolding.CustomFilter/ViewModels/IssueViewModel.cs) (VB: [IssueViewModel.vb](./VB/Scaffolding.CustomFilter/ViewModels/IssueViewModel.vb))
 * [IssueCollectionView.xaml](./CS/Scaffolding.CustomFilter/Views/IssueCollectionView.xaml) (VB: [IssueCollectionView.xaml](./VB/Scaffolding.CustomFilter/Views/IssueCollectionView.xaml))
-* [IssueCollectionView.xaml.cs](./CS/Scaffolding.CustomFilter/Views/IssueCollectionView.xaml.cs) (VB: [IssueCollectionView.xaml](./VB/Scaffolding.CustomFilter/Views/IssueCollectionView.xaml))
+* [IssueCollectionView.xaml.cs](./CS/Scaffolding.CustomFilter/Views/IssueCollectionView.xaml.cs) (VB: [IssueCollectionView.xaml.vb](./VB/Scaffolding.CustomFilter/Views/IssueCollectionView.xaml.vb))
 * [IssueView.xaml](./CS/Scaffolding.CustomFilter/Views/IssueView.xaml) (VB: [IssueView.xaml](./VB/Scaffolding.CustomFilter/Views/IssueView.xaml))
-* [IssueView.xaml.cs](./CS/Scaffolding.CustomFilter/Views/IssueView.xaml.cs) (VB: [IssueView.xaml](./VB/Scaffolding.CustomFilter/Views/IssueView.xaml))
+* [IssueView.xaml.cs](./CS/Scaffolding.CustomFilter/Views/IssueView.xaml.cs) (VB: [IssueView.xaml.vb](./VB/Scaffolding.CustomFilter/Views/IssueView.xaml.vb))
 <!-- default file list end -->
 # Scaffolding Wizards - How to create a custom filter
 
